@@ -9,6 +9,8 @@ services:
       - 80
     ports:
       - 8080:80
+    depends_on:
+      - api_server
 
   api_server:
       build: 
