@@ -32,7 +32,12 @@ services:
       - "5433:5432"
     networks:
       - chess_opening_trainer_network
+    volumes:
+      - chess_opening_trainer_volume:/var/lib/postgresql/data
 
 networks:
   chess_opening_trainer_network:
     driver: bridge
+
+volumes:
+  chess_opening_trainer_volume:
