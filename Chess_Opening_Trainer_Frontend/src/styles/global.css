@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-grid-item {
+  background-color: #e7e7e7;
+  padding: 5%;
+  box-shadow: 0px 4px 4px #666666;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+  h1 {
+    margin-bottom: 0.3em;
+  }
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+}
+
+h4 {
+  text-align: center;
+}
+
+hr {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.inner-grid-item h3 {
+  text-align: center;
+  color: black;
+}
+
+.inner-grid-item img {
+  width: 70%;
+  height: auto;
+  padding-left: 15%;
+}
+
+.icon {
+  width: 10%;
+  height: auto;
+  position: fixed;
+  top: 2.5%;
+  left: 3.33333333333%;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  position: fixed;
+  cursor: pointer;
+  width: 10%;
+  height: auto;
+  right: 3.33333333333%;
+  top: 2.5%;
+  z-index: 90;
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+  .icon {
+    width: 4%;
+  }
+
+  .hamburger-icon {
+    width: 4%;
+  }
+}
+
+.help-button {
+  position: fixed;
+  height: auto;
+  right: 13%;
+  top: 20%;
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+  .help-button {
+    position: fixed;
+    right: 3.33333333333%;
+    top: 2.5%;
+  }
+}
+
+/* iphone se*/
+@media screen and (max-width: 320px) {
+  .help-button {
+    top: 16%;
+  }
+}
+
+/* ipad */
+@media screen and (max-width: 770px) {
+  .help-button {
+    top: 5%;
+  }
+}
+
+/* ipad pro */
+@media screen and (max-width: 1030px) {
+  .help-button {
+    top: 5%;
+    right: 17.5%;
+  }
+}
+
+.menu-item {
+  padding-top: 2em;
+}
+
+.hamburger-spacer {
+  height: 3em;
+}
+
+.hamburger-link {
+  font-size: large;
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .hamburger-link {
+    padding-left: 15%;
+    padding-bottom: 1%;
+  }
+}
+.hamburger-link:hover {
+  color: #32393f;
+}
+
+.hamburger-div {
+  position: fixed;
+  background-color: #e7e7e7;
+  width: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em;
+}
+
+/* bigger screens */
+@media only screen and (min-width: 700px) {
+  .hamburger-div {
+    background-color: #dabba7;
+    width: 40%;
+    height: 100%;
+    right: 0;
+    left: auto;
+  }
+}
+
+/* move description */
+.opening-information {
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+/* buttons inside the modal */
+.colorselector {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.opening-title {
+  margin-top: 2em;
+}
+
+/* smartphones */
+@media screen and (max-width: 500px) {
+  .opening-title {
+    margin-top: 2.5em;
+  }
+}
+
+.opening-movedescription {
+  background-color: #e7e7e7;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+  font-size: larger;
+}
+
+.opening-movedescription-text {
+  text-align: center;
+}
+
+.opening-movedescription-subtitle {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.opening-play {
+  background-color: #dabba7;
+}
+
+.button {
+  font-weight: bold;
+}
+
+.modal-close {
+  padding-left: 85%;
+}
+
+.modal-selector {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+/* desktop */
+@media screen and (min-width: 1000px) {
+  .modal-selector {
+    margin-top: 5%;
+  }
+}
+
+.modal-selector-button {
+  margin: 0 5px;
+}
+
+/*smartphones*/
+@media screen and (max-width: 500px) {
+  .modal-close {
+    padding-left: 85%;
+  }
+  .modal-selector {
+    margin-top: 10%;
+  }
+}
+
+.alertbox {
+  z-index: 200;
+  position: fixed;
+  width: 70%;
+  height: auto;
+  margin: 5% 15% 0;
+}
+
+.success-icon {
+  color: rgb(11, 180, 11);
+  width: 10%;
+  height: auto;
+  padding-left: 45%;
+  padding-bottom: 0.1em;
+}

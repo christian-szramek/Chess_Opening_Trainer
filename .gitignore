@@ -1,0 +1,41 @@
+# Frontend files
+
+Chess_Opening_Trainer_Frontend/node_modules
+#Chess_Opening_Trainer_Frontend/.env 
+
+# Backend files
+
+Chess_Opening_Trainer_Backend/HELP.md
+Chess_Opening_Trainer_Backend/target/
+Chess_Opening_Trainer_Backend/!.mvn/wrapper/maven-wrapper.jar
+Chess_Opening_Trainer_Backend/!**/src/main/**/target/
+Chess_Opening_Trainer_Backend/!**/src/test/**/target/
+
+### STS ###
+Chess_Opening_Trainer_Backend/.apt_generated
+Chess_Opening_Trainer_Backend/.classpath
+Chess_Opening_Trainer_Backend/.factorypath
+Chess_Opening_Trainer_Backend/.project
+Chess_Opening_Trainer_Backend/.settings
+Chess_Opening_Trainer_Backend/.springBeans
+Chess_Opening_Trainer_Backend/.sts4-cache
+
+### IntelliJ IDEA ###
+Chess_Opening_Trainer_Backend/.idea
+Chess_Opening_Trainer_Backend/*.iws
+Chess_Opening_Trainer_Backend/*.iml
+Chess_Opening_Trainer_Backend/*.ipr
+
+### NetBeans ###
+Chess_Opening_Trainer_Backend//nbproject/private/
+Chess_Opening_Trainer_Backend//nbbuild/
+Chess_Opening_Trainer_Backend//dist/
+Chess_Opening_Trainer_Backend//nbdist/
+Chess_Opening_Trainer_Backend//.nb-gradle/
+Chess_Opening_Trainer_Backend/build/
+Chess_Opening_Trainer_Backend/!**/src/main/**/build/
+Chess_Opening_Trainer_Backend/!**/src/test/**/build/
+
+### VS Code ###
+.vscode
+Chess_Opening_Trainer_Backend/.vscode/
