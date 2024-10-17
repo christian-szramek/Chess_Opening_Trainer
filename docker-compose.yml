@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  react-nginx-app:
+    stdin_open: true
+    build:
+      context: Chess_Opening_Trainer_Frontend
+      dockerfile: Dockerfile
+    expose:
+      - 80
+    ports:
+      - 8080:80
