@@ -1,20 +1,15 @@
-# Chess_Opening_Trainer
-A simple web app to train the first moves of chess openings like Italian Game, Spanish Game, ... against a bot.
-The frontend was my first React.js project. The UI isn't fancy at all but it works on mobile screens to what made me pretty proud at this time. The Spring Boot Backend and the Dockerization where added later.
-
-## Demo
+# Chess Opening Trainer
+A simple web app to train the first moves of chess openings like Italian Game, Spanish Game, etc. against a bot. <br /> 
+The frontend was my first React.js project. The UI isn't fancy at all but it works on mobile screens to what made me pretty proud at this time. <br />
+The Spring Boot Backend and the Dockerization where added later.
 
 ### Requirements
-- Docker [Installation Guide] (https://docs.docker.com/engine/install/)
+- Docker [Installation Guide](https://docs.docker.com/engine/install/)
 
 ## Usage
-1. Run `docker-compose up`
+1. Run `docker-compose up -d`
 
-## Model
-
-## Components
-
-## Developement Setup Frontend
+## Development Setup for the Frontend
 
 ### Requirements
 - Node.js @16
@@ -24,7 +19,7 @@ The frontend was my first React.js project. The UI isn't fancy at all but it wor
 2. Run `npm install --force`
 3. Run `npm start`
 
-## Development Setup Backend
+## Development Setup for the Backend
 
 ### Requirements 
 - Java JDK @21
