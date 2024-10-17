@@ -4,7 +4,6 @@ import com.christianszramek.Chess_Opening_Trainer_Backend.model.Move;
 import com.christianszramek.Chess_Opening_Trainer_Backend.model.Opening;
 import com.christianszramek.Chess_Opening_Trainer_Backend.repository.OpeningRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

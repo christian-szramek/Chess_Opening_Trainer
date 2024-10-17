@@ -63,6 +63,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>chess_opening_trainer_api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -114,5 +115,4 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-
 </project>

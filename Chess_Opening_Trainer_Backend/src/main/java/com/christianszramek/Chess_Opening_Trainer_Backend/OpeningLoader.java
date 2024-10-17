@@ -4,9 +4,9 @@ import com.christianszramek.Chess_Opening_Trainer_Backend.model.Opening;
 import com.christianszramek.Chess_Opening_Trainer_Backend.repository.OpeningRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.InputStream;
 import java.util.List;
