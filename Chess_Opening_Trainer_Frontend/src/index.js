@@ -12,9 +12,6 @@ import {
 //import { HTML5toTouch } from "rdndmb-html5-to-touch";
 
 import App from "./components/App";
-import dotenv from 'dotenv'
-
-dotenv.config();
 
 export const HTML5toTouch = {
   backends: [
