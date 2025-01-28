@@ -3,12 +3,10 @@ A simple web app to train the first moves of chess openings like Italian Game, S
 The frontend was my first React.js project. The UI isn't fancy at all but it works on mobile screens too what made me pretty proud at this time. <br />
 The Spring Boot Backend and the Dockerization where added later.
 
+Icons by Jurgenwesterhof: https://commons.wikimedia.org/wiki/File:Chess_Pieces_Sprite.svg
+
 ### Requirements
 - Docker [Installation Guide](https://docs.docker.com/engine/install/)
-
-### Icons
-- https://commons.wikimedia.org/wiki/File:Chess_Pieces_Sprite.svg
-- Credits to Jurgenwesterhofer 
 
 ## Usage
 1. Run `docker-compose up -d`
