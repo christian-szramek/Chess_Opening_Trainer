@@ -6,6 +6,10 @@ The Spring Boot Backend and the Dockerization where added later.
 ### Requirements
 - Docker [Installation Guide](https://docs.docker.com/engine/install/)
 
+### Icons
+- https://commons.wikimedia.org/wiki/File:Chess_Pieces_Sprite.svg
+- Credits to Jurgenwesterhofer 
+
 ## Usage
 1. Run `docker-compose up -d`
 
